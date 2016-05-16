@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>PIZZA HUT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
   <link rel="shortcut icon" href="img/PIZZA-HUT-LOGO.png"/>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/960.css">
   <link rel="stylesheet" href="bootstrap/css">
   <link rel="stylesheet" href="bootstrap/fonts">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -19,8 +19,7 @@
   <div class="container">
       <center><h1>PIZZA HUT</h1></center>
       <img id="brand-image" alt="WEBSITE-LoGo" src="img/pizza-hut-make-it-great-logo-small.png "style="float:left;" height="200px" width="500px" />
-      <nav style="font-size:20px;">
-
+      <nav>
         <span  class="glyphicon glyphicon-home"></span>
         Home<a href="#">
               </a>
@@ -28,6 +27,16 @@
     </a>
     <span class="icon-info-sign"></span>
       About<a href="#"></a>
+      <form class="navbar-form" role="search">
+        <div class="input-group add-on">
+          <input class="form-control" placeholder="search" name="srch-term" type="text">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search">
+            </i>
+          </button>
+        </div>
+      </div>
+    </form>
   </nav>
   </div>
 </header>
@@ -38,26 +47,30 @@
 <br>
 <div class="conatiner">
 <div class="row">
-    <div class="col-sm-4" height="400px" width="318">
+    <center><div class="col-sm-4" height="400px" width="318">
       <p>
         <img src="img/pizza_CockadoodleBacon.png" height="230" width="300"></img>
      <p class="dec">This is the standard Fricano's EBA Pizza fresh from the oven. The Everything But Anchovies (Pepperoni, Italian Sausage, Mushroom & Green Pepper) or better known to many as the "EBA". Customers of over 30 years still think that it's the only style we make because it is such a popular request. But there are other options. Any combination of the five toppings will result in just a little variation from the other but always the unique and delicious Fricano's pizza taste.</p>
      </p>
-   </div>
+     <a href="#" target="_blank" id="id" class="btn btn-danger btn-block">$8 </a>
+   </div></center>
 
- <div class="col-sm-4" height="400px" width="318">
+<center> <div class="col-sm-4" height="400px" width="318">
  <p>
    <img src="img/pizza_GiddyUpBBQChicken.png" height="300" width="300"></img>
    <p class="dec">This is the standard Fricano's EBA Pizza fresh from the oven. The Everything But Anchovies (Pepperoni, Italian Sausage, Mushroom & Green Pepper) or better known to many as the "EBA". Customers of over 30 years still think that it's the only style we make because it is such a popular request. But there are other options. Any combination of the five toppings will result in just a little variation from the other but always the unique and delicious Fricano's pizza taste.</p>
  </p>
+ <a href="#" target="_blank" id="id" class="btn_size btn btn-danger btn-block">$5 </a>
 </div>
-
- <div class="col-sm-4" height="400px" width="318">
+</center>
+ <center><div class="col-sm-4" height="400px" width="318">
 <p>
   <img src="img/pizza_ChickenSupreme.png" height="230" width="300"></img>
   <p class="dec">This is the standard Fricano's EBA Pizza fresh from the oven. The Everything But Anchovies (Pepperoni, Italian Sausage, Mushroom & Green Pepper) or better known to many as the "EBA". Customers of over 30 years still think that it's the only style we make because it is such a popular request. But there are other options. Any combination of the five toppings will result in just a little variation from the other but always the unique and delicious Fricano's pizza taste.</p>
 </p>
+<a href="#" target="_blank" id="id" class="btn btn-danger btn-block">$3 </a>
 </div>
+</center>
 </div>
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -94,15 +107,52 @@
   </a>
 </div>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Thank u</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Thank You</h4>
+        </div>
+        <div class="modal-body">
+          <p class="clr">Thank you for visiting Pizza Hut</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+<br>
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Our branch</button>
+  <div id="demo" class="collapse">
+<p class="clr1">we have several branch in mumbai,chennai,kerala,bangalore .... we offer home delivery also. Thank you.</p>
+</div>
+</div>
+              <br>
+              <div class = "panel panel-default">
+   <div class = "panel-body"><center>
+      <a href="">For more info about us</a></center>
+  </div>
+
 <footer class ="container">
-  <div class="row">
+ <div class="row">
     <div class="col-sm-12">
 visit us on<a href="#"> Facebook</a><img src="http://www.iconarchive.com/download/i49146/yootheme/social-bookmark/social-facebook-box-blue.ico" width="30px" height="30px">
-<a href="#"> Twitter</a><img src="http://designbump.home1448476585.netdna-cdn.com/wp-content/uploads/2012/04/twitter-free-hq-buttons-icons-psd-photoshop-vector-illustrator-bird-017.png?3e9842" width="30px" height="30px">
 <a href="#">Youtube</a><img src="https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png" width="30px" height="30px">
 <a href="#">Instagram</a><img src="http://www.starwars7news.com/wp-content/uploads/2015/04/instagram-app-icon.jpg" width="30px" height="30px">
-</div>
+    </div>
 </div>
 </footer>
 </body>
