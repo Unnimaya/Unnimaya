@@ -1,6 +1,7 @@
 /*header*/
 header
 {
+<<<<<<< HEAD
   background="img/bg.jpg";
   margin: auto;
   height: 150px;
@@ -22,7 +23,26 @@ header
 /*body*/
 body
 {
+<<<<<<< HEAD
   background-color: red;
+=======
+  background-color: white;
+=======
+  background-color: orange;
+  margin: auto;
+  height: 100px;
+  font-size:30px;
+  color: green;
+  width: 100%;
+  text-align: right;
+
+}
+/*body*/
+body
+{
+  background-image: url("../img/background.jpeg");
+>>>>>>> 47df884b88d4819ac6236e621202bc904bb1377e
+>>>>>>> 701259b554d3560f9b7c28e538160656a81922b3
 }
 
 //*navigation*/
@@ -30,11 +50,22 @@ nav
 {
   width: 100%;
   text-align: right;
+<<<<<<< HEAD
 font-size:20px;
+=======
+<<<<<<< HEAD
+
+>>>>>>> 701259b554d3560f9b7c28e538160656a81922b3
 }
 nav a{
   font-size: 15;
   color:white;
+=======
+}
+nav a{
+  font-size: 23;
+  color:#466666;
+>>>>>>> 47df884b88d4819ac6236e621202bc904bb1377e
   font-weight: bolder;
   margin-right: 20px
 
@@ -84,6 +115,7 @@ img
   padding-left: 30px;
   padding-right: 30px
 }
+<<<<<<< HEAD
 .col-sm-6
 {
   float:left;
@@ -118,6 +150,19 @@ footer
   padding:15px 0;
   text-align: right;
   min-width: 100%;
+=======
+
+/*footer*/
+footer
+{
+  background-color: orange;
+  margin: auto;
+  height: 100px;
+  font-size:20;
+  color: blue;
+  width: 100%;
+  text-align: center;
+>>>>>>> 47df884b88d4819ac6236e621202bc904bb1377e
 }
 
 /*text over image*/
@@ -140,6 +185,7 @@ footer
    color: orange;
    margin-left: 500px;
 }
+<<<<<<< HEAD
 .P1
 {
   margin-bottom: 500px;
@@ -184,6 +230,7 @@ td{
     overflow: hidden;
     text-align: left;
 }
+<<<<<<< HEAD
 .modal {
 }
 .vertical-alignment-helper {
@@ -228,3 +275,7 @@ td{
 {
   color:white;
 }
+=======
+=======
+>>>>>>> 47df884b88d4819ac6236e621202bc904bb1377e
+>>>>>>> 701259b554d3560f9b7c28e538160656a81922b3
